@@ -1,0 +1,53 @@
+<!DOCTYPE HTML>
+<html lang="en-us">
+    <head>
+        <title>Word Guessing Game</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+        <link rel="stylesheet" type="text/css" href="assets/css/style.css">   
+        <link href="https://fonts.googleapis.com/css?family=Lora" rel="stylesheet">     
+    </head>
+    
+    <body>
+        <div class="container">
+            <div class="row">
+                <!--main body of game-->
+                <div class="col-md-12">
+                    <h1>How many artists do you know?</h1>
+                    <p>Press Any Key to Start</p>
+                    <div id="game">
+                        <div class="row">
+                            <!--game play-->
+                            <div class="col-md-4">
+                                <!--displays word to guess-->
+                                <h2>Artist</h2>
+                                <div id="current-word"></div>
+                                <!--tells you how many guesses remain-->
+                                <h2>Guesses Remaining</h2>
+                                <div id="guesses-remaining"></div>
+                                <!--displays letters already guessed-->
+                                <h2>Letters Guessed</h2>
+                                <div id="letters-guessed"></div>
+                                <!--wins append here-->
+                                <h3>Wins: <div id="wins">0</div></h3>
+                            </div>
+                            <!--additional info for winners-->
+                            <div class="col-md-4">
+                                <!--displays more info about word after win-->
+                                <div id="word-info"></div>
+                                <div id="image-div"><img src="assets/images/guerilla.jpg" id="guerilla"></div>
+                            </div>
+                            <div class="col-md-4">
+                                <div id="artist-bio"></div>
+                                <div id="bio-source"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+    
+    <script src="assets/javascript/game.js"></script>
+</html>

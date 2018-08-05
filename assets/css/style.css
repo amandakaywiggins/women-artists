@@ -1,0 +1,33 @@
+h1, p {
+    text-align: center;
+    font-family: 'Lora', serif;
+}
+
+h3 {
+    margin-top: 50px;
+}
+
+#guerilla {
+    height: 100%;
+    width: 100%;
+}
+
+.art-image {
+    height: 80%;
+    width: 80%;
+}
+
+#word-info {
+    font-weight: bolder;
+}
+
+#artist-bio {
+    font-size: 12px;
+    margin-top: 12px;
+}
+
+#bio-source {
+    font-size: 10px;
+    font-weight: italic;
+    margin-top: 5px;
+}
