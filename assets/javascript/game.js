@@ -130,7 +130,7 @@ var gamePlay = {
       vanhemessen: {
           picture: "caterina.jpg",
           name: "Caterina van Hemessen",
-          bio: "Harriet Powers is one of the best-known southern African American quilt makers, even though only two of her quilts, both of which she made after the Civil War (1861-65), survive today. One is part of the National Museum of American History collection at the Smithsonian Institution in Washington, D.C. The second quilt is in the Museum of Fine Arts in Boston, Massachusetts. The cotton quilts consist of numerous pictorial squares depicting biblical scenes and celestial phenomena. They were constructed through applique and piecework and were hand and machine stitched.",
+          bio: "Caterina (Catharina) van Hemessen, a Flemish painter trained by her father, married the organist of Antwerp Cathedral in 1554. Two years later, the couple entered the service of an admirer of van Hemessen’s work, Mary of Hungary, former regent of the Netherlands who had retired to her court in Spain. Mary died in 1558; her will stipulated that van Hemessen and her husband receive pensions for life. Only ten works by the artist survive today; primarily small portraits, they date between 1548 and 1552.",
           source: "Source: brooklynmuseum.org"
       },
       North: {
